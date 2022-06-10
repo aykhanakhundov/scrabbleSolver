@@ -18,7 +18,7 @@ public class ScrabbleSolver {
 
         Map<Character, Integer> lettersCountMap = getCharacterCountMap(letters);
 
-        BufferedReader reader = new BufferedReader(new FileReader("C:/Users/johnm/scrabblesolver/dictionary.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("dictionary.txt"));
 
         System.out.println("All possible words you can make with those letters:");
 
